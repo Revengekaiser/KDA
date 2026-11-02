@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("img/background-nebula.jpg");
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
+}
+
+/* Estilos para o nome do personagem e a imagem do personagem */
+
+.nome {
+    font-family: 'Playfair Display', serif;
+    color: rgb(139, 0, 139);
+    font-size: 240px;
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 400px;
+    text-align: center;
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 700px;
+    margin: auto;
+}
+
+/* Estilos para os textos,parágrafos,etc */
+
+.textos {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    color: rgb(27, 131, 190);
+}
+
+.paragrafo-1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+.paragrafo-2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para os botões */
+
+.botoes {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.botao-personagem {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid rgb(139, 0, 139);
+}
+
